@@ -1,0 +1,114 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    height: 100px;
+}
+
+
+.navigation{
+    border: 4px solid black;
+    display: flex;
+    flex-direction: row;
+    padding-left: 86.2%;
+    position:fixed;
+    top:8px;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+b{
+    padding: 10px;
+    text-decoration: none;
+    color: darkgreen;
+}
+.title{
+    position: fixed;
+    font-family: 'space groteks', sans-serif;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
+    position: sticky;
+    width: 98.8%;
+    top: 23px;
+    height: 1000%;
+}
+.about{
+    text-align: center;
+    color: black;
+    padding-top: 30%;
+}
+.footer{
+    position:fixed;
+    padding-left: 45%;
+    color: darkgreen;
+    padding-top: 190px;
+}
+
+@media screen and (max-width: 800px){
+    .splash{
+        scale: 90%;
+        padding-right: 10px;
+        flex-direction: column;
+        display: flex;
+
+    }
+    .navigation{
+        padding-left:68% ;
+        font-size: 20px;
+
+    }
+    body{
+        width:97%;
+        border: 5px solid black;
+        height: 1000%;
+    }
+    .intro{
+        padding-left: 15px;
+        text-align: left;
+        font-size: large;
+    }
+
+    h2{
+        font-size: medium;
+        padding-top: 900px;
+        padding-left: 43%;
+    }
+    .title{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:400px){
+ 
+
+    .navigation{
+        padding-left:40% ;
+        font-size: 18px;
+
+    }
+    body{
+        width:93%;
+        border: 5px solid black;
+        height: 800%;
+    }
+    .about{
+        padding-left: 10px;
+
+    }
+    h2{
+        font-size: 0px;
+        padding-top: 195%;
+        padding-left: 1px;
+
+    }
+    .title{
+        font-size: 20px;
+    }
+}
