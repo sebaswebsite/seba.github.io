@@ -14,7 +14,7 @@ html{
 a{
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: darkgreen;
 }
 b{
     padding: 10px;
@@ -22,7 +22,8 @@ b{
     color: darkgreen;
 }
 .title{
-    position: fixed;
+    text-align: center;
+    color: darkgreen;
     font-family: 'space groteks', sans-serif;
     font-size: 30px;
     padding-top: 5px;
@@ -30,15 +31,13 @@ b{
 
 }
 .splash{
-    padding-left: 10%;
+    text-align: center;
 }
 body{
     background-color: rgb(255, 255, 255);
     border: 5px solid black;
     position: sticky;
-    width: 1500px;
-    height: 1000%;
-    
+
 }
 .intro{
     text-align: center;

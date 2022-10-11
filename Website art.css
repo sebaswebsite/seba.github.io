@@ -15,7 +15,7 @@ html{
 a{
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: darkgreen;
 }
 b{
     padding: 10px;
@@ -23,12 +23,12 @@ b{
     color:darkgreen;
 }
 .title{
-    position: fixed;
+    text-align: center;
     font-family: 'space groteks', sans-serif;
     font-size: 30px;
     padding-top: 5px;
     padding-left: 3px;
-    color: black;
+    color: darkgreen;
 }
 body{
     background-color: rgb(255, 255, 255);
