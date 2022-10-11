@@ -26,7 +26,8 @@ b{
     color: darkgreen;
 }
 .title{
-    position: fixed;
+    color: darkgreen;
+    text-align: center;
     font-family: 'space groteks', sans-serif;
     font-size: 30px;
     padding-top: 5px;
